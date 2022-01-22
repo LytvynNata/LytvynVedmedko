@@ -35,4 +35,19 @@ h6 {
 }
 .main-nav .item .link {
     text-decoration: none;
+    font-size: 14px;
+}
+.auth-nav .item .link {
+    text-decoration: none;
+    font-size: 14px;
+}
+.header.section {
+    display: flex;
+}
+.main-nav {
+    display: flex;
+}
+
+.auth-nav {
+    display: flex;
 }
