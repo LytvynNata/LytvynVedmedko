@@ -1,0 +1,11 @@
+:root {
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #333333;
+}
+
+.body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+}
