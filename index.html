@@ -15,11 +15,12 @@
   </head>
   <body>
     <header class="header section">
-      <ul class="main-nav">
-        <li class="item"><a class="link" href="">Контрагентам</a></li>
-        <li class="item"><a class="link" href="">Дизайнерам</a></li>
-        <li class="item"><a class="link" href="">Вакансии</a></li>
-      </ul>
+      <div class="container">
+        <ul class="main-nav">
+            <li class="item"><a class="link" href="">Контрагентам</a></li>
+            <li class="item"><a class="link" href="">Дизайнерам</a></li>
+            <li class="item"><a class="link" href="">Вакансии</a></li>
+         </ul>
       <a href="" class="logo">OJJO</a>
       <ul class="auth-nav">
         <li class="item"><a class="link" href="">Поиск</a></li>
@@ -28,9 +29,11 @@
         <li class="item"><button></button></li>
       </ul>
     </header>
+      </div>
     <main>
       <section class="hero">
-        <h1>Долго, дорого, богато!</h1>
+       <div class="container">
+            <h1>Долго, дорого, богато!</h1>
         <button type="button">каталог изделий</button>
         <ul>
           <li></li>
@@ -40,17 +43,19 @@
           <li></li>
           <li></li>
         </ul>
+       </div>
       </section>
       <section class="catalog">
-        <h2>К мероприятиям</h2>
+        <div class="container">
+            <h2>К мероприятиям</h2>
         <p>Настоящая красота здесь!</p>
-        <ul>
-          <li><button>Свадьба</button></li>
-          <li><button>МУЖУ</button></li>
-          <li><button>жене</button></li>
-          <li><button>партнеру</button></li>
-          <li><button>коллекции</button></li>
-          <li><button>редкость</button></li>
+        <ul >
+          <li><button type="button">Свадьба</button></li>
+          <li><button type="button">МУЖУ</button></li>
+          <li><button type="button">жене</button></li>
+          <li><button type="button">партнеру</button></li>
+          <li><button type="button">коллекции</button></li>
+          <li><button type="button">редкость</button></li>
         </ul>
         <ul>
           <li>
@@ -78,9 +83,11 @@
             <a href="">часы</a>
           </li>
         </ul>
+        </div>
       </section>
       <section class="salons">
-        <h2 hidden>Наши Салоны</h2>
+        <div class="container">
+            <h2 hidden>Наши Салоны</h2>
         <p>Не знаете, что выбрать?</p>
         <p>Посетите наши салоны в Москве</p>
         <p>
@@ -92,9 +99,11 @@
           libero viverra ipsum.
         </p>
         <button type="button"></button>
+        </div>
       </section>
       <section class="blog">
-        <h2>Полезные статьи</h2>
+        <div class="container">
+            <h2>Полезные статьи</h2>
         <p>Лучшие советы по подбору дорогих подарков</p>
         <ul>
           <li>
@@ -111,9 +120,10 @@
           </li>
         </ul>
         <a href=""><button type="button">читать наш блог</button></a>
+        </div>
       </section>
       <section class="gallery">
-        <h2 hidden>Галерея</h2>
+        <div class="container"><h2 hidden>Галерея</h2>
         <p>#ojjo_jewerly</p>
         <p>Мы в социальных сетях</p>
         <ul>
@@ -133,30 +143,32 @@
           <li><a href="">Доставка и оформление</a></li>
           <li><a href="">Индивидуальный дизайн</a></li>
         </ul>
+    </div>
       </section>
     </main>
     <footer>
-      <h2>Полезные ссылки</h2>
+      <div class="container">
+          <div class="footer-top">
+              <div class="links">
+              <h2>Полезные ссылки</h2>
       <ul>
         <li><a href="">Доставка</a></li>
         <li><a href="">Оплата </a></li>
         <li><a href="">Акции</a></li>
         <li><a href="">Политика конфиденциальности</a></li>
       </ul>
-      <h2>оплата</h2>
+          </div>
+     <div class="pays">
+          <h2>оплата</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
         justo, nec, pellentesque.
       </p>
       <img src="" alt="" />
       <img src="" alt="" />
-      <h2>контакты</h2>
-      <ul>
-        <li><a href="tel:88122345655">8 (812) 234-56-55</a></li>
-        <li><a href="tel:88122345655">8 (812) 234-56-55</a></li>
-        <li><a href="mailto:ojjo@ojjo.ru">ojjo@ojjo.ru</a></li>
-      </ul>
-      <h2>социальные сети</h2>
+     </div>
+      <div class="social-links">
+          <h2>социальные сети</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
         justo, nec, pellentesque.
@@ -166,12 +178,17 @@
       <img src="" alt="" />
       <img src="" alt="" />
       <img src="" alt="" />
-      <ul>
+      </div>
+          </div>
+      <div class="footer-bottom">
+          <ul>
         <li><a href="">(c) 2020 OJJO jewelry</a></li>
         <li><a href="">Договор публичной офферты</a></li>
         <li><a href="">Контрагентам</a></li>
         <li><a href="">Сделано Figma.info</a></li>
       </ul>
+      </div>
+      </div>
     </footer>
   </body>
 </html>
